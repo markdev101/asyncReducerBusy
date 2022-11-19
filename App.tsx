@@ -13,7 +13,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Async Reducer Example</h1>
+      <h2>Async Reducer</h2>
+      <h3>Busy Spinner using App Context/State</h3>
       <BusyContext.Provider value={busy}>
         <CounterProvider>
           <Counter />
